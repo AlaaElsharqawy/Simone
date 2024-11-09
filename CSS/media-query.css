@@ -1,0 +1,250 @@
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .navbar .MyContainer .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    background-color: #000;
+
+    width: 100%;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+
+  .navbar .MyContainer .navbar-menu a {
+    padding-block: 0.3125rem;
+    background-color: gray;
+    display: block;
+  }
+
+  .navbar label {
+    display: block;
+  }
+
+  .navbar #menu:checked ~ .navbar-menu {
+    max-height: 1000px;
+  }
+
+  #header .MyContainer .content h1 {
+    font-size: 3.125rem;
+    font-weight: 600;
+  }
+
+  #header .MyContainer .content #element {
+    font-size: 3.125rem;
+    font-weight: 600;
+  }
+
+  #about .about-area .about-text {
+    width: 100%;
+  }
+  #about .about-area .about-form {
+    width: 100%;
+  }
+
+  #about .counter .item {
+    width: calc((100% - 20px) / 2);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.166);
+    border-right: unset;
+  }
+
+  #what .service-items .item {
+    width: 100%;
+  }
+
+  #resume .resume-area .right-items,
+  .left-items {
+    width: 100%;
+  }
+
+  #portfolio .portfolio-area .portfolio-items .column {
+    width: calc((100% - 40px) / 2);
+  }
+
+  #client .client-area .item {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .title h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .title h2 {
+    font-size: 90px;
+    font-weight: 600;
+  }
+
+  #about .counter .item {
+    width: calc((100% - 20px) / 2);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.166);
+    border-right: unset;
+  }
+
+  #what .service-items .item {
+    width: 100%;
+  }
+
+  #resume .skills-area .skills-items .item {
+    width: 100%;
+  }
+
+  #portfolio .portfolio-area .portfolio-items .column {
+    width: 100%;
+  }
+  #client .client-area .item {
+    width: 100%;
+  }
+
+  #client .client-area .item p {
+    font-size: 0.9375rem;
+  }
+
+  .contact .contact-area {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact .address {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .contact .contact-data {
+    width: 100%;
+  }
+
+  .contact form input:nth-child(-n + 2) {
+    width: 100%;
+  }
+  .copy-right .MyContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #resume .skills-area h4 {
+    margin: 10px 0;
+  }
+  #resume .resume-area h4 {
+    margin-block: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #header .MyContainer .content h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  #header .MyContainer .content #element {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  #header .MyContainer .content p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  #header .MyContainer .content span {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .title h3 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .title h2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  #about .about-area .about-text h4 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #about .about-area .about-text p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #about .counter .item {
+    width: 100%;
+
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.166);
+    border-right: unset;
+  }
+  #about .counter .special {
+    border: none;
+  }
+
+  #what .service-items .item {
+    width: 100%;
+  }
+  #portfolio .portfolio-area .portfolio-items .column {
+    width: 100%;
+  }
+  #client .client-area .item {
+    width: 100%;
+  }
+
+  .contact .contact-area {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact .address {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .contact .contact-data {
+    width: 100%;
+  }
+
+  .contact form input:nth-child(-n + 2) {
+    width: 100%;
+  }
+
+  .copy-right .MyContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #resume .skills-area h4 {
+    margin: 10px 0;
+  }
+  #resume .resume-area h4 {
+    margin-block: 20px;
+  }
+
+  .copy-right h3 {
+    font-weight: 300;
+    font-size: 0.75rem;
+  }
+
+  #what .service-items .item span {
+    font-size: 25px;
+
+    width: 50px;
+    height: 50px;
+  }
+}
